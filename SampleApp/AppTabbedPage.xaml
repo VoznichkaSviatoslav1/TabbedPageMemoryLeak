@@ -1,0 +1,15 @@
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			xmlns:local="clr-namespace:SampleApp"
+			x:Class="SampleApp.MyTabbedPage">
+	<TabbedPage.Children>
+		<ContentPage Title="Tab 1">
+			<StackLayout>
+				<Button Text="Back to Main Page"
+						Clicked="NavigateBackToMainPage" />
+			</StackLayout>
+		</ContentPage>
+		<ContentPage Title="Tab 2">
+		</ContentPage>
+	</TabbedPage.Children>
+</TabbedPage>
